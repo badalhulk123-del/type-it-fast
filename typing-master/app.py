@@ -4,7 +4,7 @@ import random
 import pandas as pd
 
 # ---------------- CONFIG ----------------
-st.set_page_config(page_title="Typing Master AI ❤️", layout="wide")
+st.set_page_config(page_title="Typing Master", layout="wide")
 
 # ---------------- CSS ANIMATIONS ----------------
 st.markdown("""
@@ -142,7 +142,7 @@ def handle_input():
         st.session_state.result = result
 
 # ---------------- UI ----------------
-st.title("💻 Typing Master AI ❤️")
+st.title("💻 Typing Master")
 
 col1, col2 = st.columns([3,1])
 
